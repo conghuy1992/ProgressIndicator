@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Restart" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator1"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator2"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator3"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator4"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator5"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator6"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator7"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator8"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <myrangeseekbar.conghuy.com.myapplication.ProgressIndicator
+                android:id="@+id/determinate_progress_indicator9"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
